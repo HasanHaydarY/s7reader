@@ -1,0 +1,31 @@
+2026-04-24 10:51:45.420 [main] INFO  com.ias.s7reader.config.ConfigLoader - Varsayilan konfigurasyon (JAR ici) yukleniyor.
+2026-04-24 10:51:45.556 [main] INFO  com.ias.s7reader.config.ConfigLoader - Konfigurasyon gecerli. 6 degisken tanimli.
+2026-04-24 10:51:45.558 [main] INFO  com.ias.s7reader.Main - PLC: 192.168.0.1 | Rack: 0 | Slot: 1
+2026-04-24 10:51:45.558 [main] INFO  com.ias.s7reader.Main - Degisken sayisi: 6
+2026-04-24 10:51:45.559 [main] INFO  com.ias.s7reader.Main - Okuma araligi: 1000 ms
+2026-04-24 10:51:45.645 [main] INFO  com.ias.s7reader.output.JsonWriter - Cikti dizini olusturuldu: C:\Users\hasanyildiz\Downloads\s7reader\output
+2026-04-24 10:51:45.645 [main] INFO  com.ias.s7reader.output.JsonWriter - JSON cikti dosyasi: C:\Users\hasanyildiz\Downloads\s7reader\output\plc_data.json
+2026-04-24 10:51:45.648 [main] INFO  com.ias.s7reader.core.ReadLoop - Okuma dongusu baslatiliyor. Aralik: 1000 ms
+2026-04-24 10:51:45.648 [main] INFO  com.ias.s7reader.core.ReadLoop - Cikti dosyasi: output/plc_data.json
+2026-04-24 10:51:45.649 [main] INFO  com.ias.s7reader.core.ReadLoop - Durdurmak icin Ctrl+C
+2026-04-24 10:51:45.651 [main] INFO  com.ias.s7reader.core.S7Reader - PLC'ye baglaniliyor: 192.168.0.1  rack=0 slot=1
+2026-04-24 10:51:50.676 [main] ERROR com.ias.s7reader.core.S7Reader - PLC baglantisi basarisiz. Hata kodu: 1  Aciklama: TCP Connection failed.
+2026-04-24 10:51:50.677 [main] WARN  com.ias.s7reader.core.S7Reader - PLC baglantisi yok, okuma atlanıyor.
+2026-04-24 10:51:50.719 [main] WARN  com.ias.s7reader.core.ReadLoop - Okuma suresi araliktan uzun: 5070ms > 1000ms aralik
+2026-04-24 10:51:50.719 [main] INFO  com.ias.s7reader.core.S7Reader - PLC'ye baglaniliyor: 192.168.0.1  rack=0 slot=1
+2026-04-24 10:51:55.730 [main] ERROR com.ias.s7reader.core.S7Reader - PLC baglantisi basarisiz. Hata kodu: 1  Aciklama: TCP Connection failed.
+2026-04-24 10:51:55.730 [main] WARN  com.ias.s7reader.core.S7Reader - PLC baglantisi yok, okuma atlanıyor.
+2026-04-24 10:51:55.735 [main] WARN  com.ias.s7reader.core.ReadLoop - Okuma suresi araliktan uzun: 5016ms > 1000ms aralik
+2026-04-24 10:51:55.736 [main] INFO  com.ias.s7reader.core.S7Reader - PLC'ye baglaniliyor: 192.168.0.1  rack=0 slot=1
+2026-04-24 10:52:00.742 [main] ERROR com.ias.s7reader.core.S7Reader - PLC baglantisi basarisiz. Hata kodu: 1  Aciklama: TCP Connection failed.
+2026-04-24 10:52:00.742 [main] WARN  com.ias.s7reader.core.S7Reader - PLC baglantisi yok, okuma atlanıyor.
+2026-04-24 10:52:00.757 [main] WARN  com.ias.s7reader.core.ReadLoop - Okuma suresi araliktan uzun: 5021ms > 1000ms aralik
+2026-04-24 10:52:00.757 [main] INFO  com.ias.s7reader.core.S7Reader - PLC'ye baglaniliyor: 192.168.0.1  rack=0 slot=1
+2026-04-24 10:52:05.766 [main] ERROR com.ias.s7reader.core.S7Reader - PLC baglantisi basarisiz. Hata kodu: 1  Aciklama: TCP Connection failed.
+2026-04-24 10:52:05.766 [main] WARN  com.ias.s7reader.core.S7Reader - PLC baglantisi yok, okuma atlanıyor.
+2026-04-24 10:52:05.773 [main] WARN  com.ias.s7reader.core.ReadLoop - Okuma suresi araliktan uzun: 5016ms > 1000ms aralik
+2026-04-24 10:52:05.773 [main] INFO  com.ias.s7reader.core.S7Reader - PLC'ye baglaniliyor: 192.168.0.1  rack=0 slot=1
+2026-04-24 10:52:10.774 [main] ERROR com.ias.s7reader.core.S7Reader - PLC baglantisi basarisiz. Hata kodu: 1  Aciklama: TCP Connection failed.
+2026-04-24 10:52:10.774 [main] WARN  com.ias.s7reader.core.S7Reader - PLC baglantisi yok, okuma atlanıyor.
+2026-04-24 10:52:10.781 [main] WARN  com.ias.s7reader.core.ReadLoop - Okuma suresi araliktan uzun: 5008ms > 1000ms aralik
+2026-04-24 10:52:10.782 [main] INFO  com.ias.s7reader.core.S7Reader - PLC'ye baglaniliyor: 192.168.0.1  rack=0 slot=1
